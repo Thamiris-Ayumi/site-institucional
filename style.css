@@ -1,0 +1,39 @@
+/* o asterisco refere-se a tudo*/
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #F1F1F1;
+}
+
+.header {
+    padding: 15px;
+    /* para fazer uma linha na borda do header */
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #32b9cd;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    /* para tirar os topicos da lista*/
+    list-style: none;
+}
+
+li {
+    color: #e3b062;
+}
